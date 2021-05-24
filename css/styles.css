@@ -1,0 +1,419 @@
+/* HTML */
+
+body {
+  overflow-x: hidden;
+  float: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p,
+li {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.3rem;
+}
+
+/* bootstrap */
+
+.container-fluid {
+  padding: 0;
+}
+
+.col-md-auto {
+  padding-left: 0;
+}
+
+.left-col-main {
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #c00000;
+  border-color: #9c0606;
+}
+
+.btn-primary:hover {
+  background-color: #690101;
+  border-color: #6d0b0b;
+}
+
+.btn-outline-primary {
+  border-color: #ff4c4c;
+  color: #ff4c4c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e62e2e;
+  border-color: #e62e2e;
+}
+
+.btn-outline-secondary {
+  border-color: #6b6464;
+  background-color: rgb(255, 251, 239);
+}
+
+.btn-outline-secondary:hover {
+  border-color: #585656;
+  background-color: rgb(102, 102, 102);
+}
+
+/* reusables */
+
+.strip {
+  padding: 3.86% 15.44%;
+}
+
+.strip-primary {
+  background-color: #b10c0c;
+  color: white;
+}
+
+.strip-secondary {
+  background-color: #d11919;
+  color: white;
+}
+
+.strip-lg {
+  padding: 7.72% 15.44%;
+}
+
+/* nav */
+
+.navbar {
+  padding: 3.86% 15.44%;
+  background-color: #bb1111;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 2.33rem;
+}
+
+.nav-link {
+  margin: auto 1.67rem;
+  font-size: 1.13rem;
+}
+
+/* main */
+
+.main-strip {
+  padding-top: 1.93%;
+}
+
+.main-slogan {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 2.67vmax;
+  line-height: 1.5;
+}
+
+.d-btn-row {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.d-btn {
+  padding: 1rem 1.66rem;
+  margin: 1rem 1rem;
+  margin-left: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.d-btn-left {
+  margin-right: 2rem;
+  margin-left: 0;
+}
+
+.tindor-mockup {
+  width: 50%;
+  position: absolute;
+  left: 33%;
+  transform: rotate(15deg);
+}
+
+/* bullets */
+
+.bullet-strip {
+  background-color: rgb(211, 204, 177);
+  position: relative;
+}
+
+.bullet {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fas-bullet {
+  display: block;
+  color: #a32616;
+  font-size: 3rem;
+  padding: 2.33rem;
+}
+
+.fas-bullet:hover {
+  color: #ac1414;
+}
+
+.bullet-h {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.bullet-p {
+  color: #5c5c5c;
+}
+
+/* testimonials */
+
+.carousel {
+  background-color: #a72716;
+}
+
+.carousel-container {
+  height: 724px;
+  background-color: #be2713;
+}
+
+.testimonials-strip {
+  color: white;
+}
+
+.profile {
+  margin-bottom: 2rem;
+}
+
+.testimonials-h {
+  font-size: 2.67rem;
+}
+
+.testimonials-em {
+  margin: 1.67rem auto 0 auto;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.bork-1 {
+  width: 64px;
+  overflow: hidden;
+  clip-path: circle(50% at center);
+  /* margin: 1.33rem; */
+}
+
+/* press */
+
+.brand-img {
+  height: 64px;
+  object-fit: contain;
+  filter: saturate(0%) brightness(0%) invert(100%);
+}
+
+.brand-img:hover {
+  filter: none;
+}
+
+/* pricing */
+
+.card {
+  border: rgb(0, 0, 0);
+  background-color: rgb(247, 233, 205);
+}
+
+.card-header {
+  font-weight: bolder;
+  border: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px,
+    rgb(0, 0, 0) 1.75517px 0.958851px 0px,
+    rgb(0, 0, 0) 1.0806px 1.68294px 0px,
+    rgb(0, 0, 0) 0.141474px 1.99499px 0px,
+    rgb(0, 0, 0) -0.832294px 1.81859px 0px,
+    rgb(0, 0, 0) -1.60229px 1.19694px 0px,
+    rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+    rgb(0, 0, 0) -1.87291px -0.701566px 0px,
+    rgb(0, 0, 0) -1.30729px -1.5136px 0px,
+    rgb(0, 0, 0) -0.421592px -1.95506px 0px,
+    rgb(0, 0, 0) 0.567324px -1.91785px 0px,
+    rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+    rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.pricing-description {
+  margin: auto auto 3.86% 15px;
+}
+
+.pricing-card-title {
+  padding-top: 1.93%;
+}
+
+.card-list-item {
+  margin: 2.33rem auto;
+  font-size: 1rem;
+}
+
+.fa-check-circle {
+  color: #802828;
+}
+
+.fa-times-circle {
+  color: rgb(158, 52, 52);
+}
+
+/* CTA */
+
+.cta-strip {
+  background-color: #db2323;
+  padding-bottom: 3.86%;
+  align-items: center;
+}
+
+.cta-h {
+  text-align: center;
+  font-size: 2.67rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.col-cta-btn {
+  padding-left: 15px;
+}
+
+.social-container {
+  padding-bottom: 1rem;
+}
+
+/* footer */
+
+.footer-strip {
+  padding-top: 1.93%;
+  padding-bottom: 0.3%;
+  text-align: center;
+}
+
+.fa-social {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.fa-social:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.copyright-p {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .pricing-description {
+    margin-bottom: 7.76%;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonials-h {
+    font-size: 2.67rem;
+  }
+
+  .brand-img {
+    height: 48px !important;
+  }
+
+  .brands-container {
+    height: 324px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .tindor-mockup {
+    width: 66%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tindor-mockup {
+    position: absolute;
+    left: auto;
+    transform: none;
+    width: 50vw;
+  }
+
+  .bullet-strip {
+    position: relative;
+  }
+
+  .main-slogan {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .col-d-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .d-btn {
+    margin: auto;
+  }
+
+  .left-col-main {
+    padding-top: 3.86%;
+    padding-bottom: 7.72%;
+  }
+
+  .right-col-main {
+    display: flex;
+    justify-content: center;
+    height: 33vh;
+  }
+
+  .pricing-description {
+    margin-bottom: 11.59%;
+  }
+
+  .footer-strip {
+    padding-top: 7.76%;
+  }
+
+  .copyright-p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-slogan {
+    font-size: 2rem;
+  }
+
+  .d-btn {
+    margin: 1rem auto;
+  }
+
+  .testimonials-h {
+    font-size: 2rem;
+  }
+
+  .brand-img {
+    height: 36px !important;
+  }
+
+  .cta-h {
+    font-size: 2rem;
+  }
+}
